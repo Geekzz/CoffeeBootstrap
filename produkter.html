@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="global.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="produkter.html">Produkter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="om-oss.html">Om Oss</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+        <header class="custom-header">
+            <img
+                src="https://static.vecteezy.com/system/resources/previews/010/160/674/non_2x/coffee-icon-sign-symbol-design-free-png.png"
+                alt="Coffee icon"
+                width="60"
+                height="60">
+        </header>
+
+        <div class="content container mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Kaffemaskiner</h2>
+                    <div class="row">
+                        <!-- Kaffemaskin 1 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="https://picsum.photos/200?random=5" class="card-img-top" alt="Kaffemaskin 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Modell A</h5>
+                                    <p class="card-text">En fantastisk kaffemaskin med automatisk bryggning och
+                                        rengöringsfunktion.</p>
+                                    <p class="card-text"><strong>Pris: 1,499 kr</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Kaffemaskin 2 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="https://picsum.photos/200?random=6" class="card-img-top" alt="Kaffemaskin 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Modell B</h5>
+                                    <p class="card-text">Kompakt och stilren design med enkel användning och hög
+                                        kvalitet.</p>
+                                    <p class="card-text"><strong>Pris: 1,199 kr</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Kaffemaskin 3 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="https://picsum.photos/200?random=7" class="card-img-top" alt="Kaffemaskin 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Modell C</h5>
+                                    <p class="card-text">Den perfekta kaffemaskinen för kaffeälskare med flera
+                                        inställningar.</p>
+                                    <p class="card-text"><strong>Pris: 1,799 kr</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more kaffemaskiner as needed -->
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h2>Kaffeparty</h2>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <h5>Företag</h5>
+                            <p>Vi erbjuder skräddarsydda lösningar för företag som vill skapa en trevlig atmosfär med
+                                kaffe.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h5>Privatpersoner</h5>
+                            <p>För privatpersoner erbjuder vi ett brett utbud av kaffemaskiner och tillbehör.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <footer class="text-center py-3">
+            <div class="container">
+                <p>&copy; <span id="currentYear"></span> Kaffeparty. All rights reserved.</p>
+                <p>Webmaster: Johan Ahlsson</p>
+            </div>
+        </footer>
+        <!-- Footer End -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

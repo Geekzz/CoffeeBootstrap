@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om oss</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="global.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="produkter.html">Produkter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="om-oss.html">Om Oss</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+         
+        <header class="custom-header">
+            <img src="https://static.vecteezy.com/system/resources/previews/010/160/674/non_2x/coffee-icon-sign-symbol-design-free-png.png"
+                alt="Coffee icon" width="60" height="60">
+        </header>
+
+        <div class="content">
+            <h1>Om Oss</h1>
+            <p>Välkommen till Kaffeparty! Vi är ett företag som brinner för att erbjuda högkvalitativa kaffemaskiner och
+                en fantastisk kaffeupplevelse. Vårt mål är att göra varje kaffepaus speciell och att dela vår passion
+                för kaffe med alla.</p>
+
+            <h2>Kontakta Oss</h2>
+            <div class="row justify-content-center">
+                <!-- CEO Section -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.profilebakery.com/wp-content/uploads/2023/04/PROFILE-PICTURE-FOR-FACEBOOK.jpg"
+                            class="card-img-top" alt="CEO Image" height="350">
+                        <div class="card-body">
+                            <h5 class="card-title">Namn: Simon Andersson</h5>
+                            <p class="card-text">VD</p>
+                            <p><strong>Telefon:</strong> +46 70-123 45 67</p>
+                            <p><strong>Email:</strong> simon.andersson@kaffeparty.se</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HR Manager Section -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://a.storyblok.com/f/191576/1200x800/faa88c639f/round_profil_picture_before_.webp"
+                            class="card-img-top" alt="HR Manager Image" height="350">
+                        <div class="card-body">
+                            <h5 class="card-title">Namn: Anna Svensson</h5>
+                            <p class="card-text">HR-ansvarig</p>
+                            <p><strong>Telefon:</strong> +46 70-765 43 21</p>
+                            <p><strong>Email:</strong> anna.svensson@kaffeparty.se</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <footer class="text-center py-3">
+            <div class="container">
+                <p>&copy; <span id="currentYear"></span> Kaffeparty. All rights reserved.</p>
+                <p>Webmaster: Johan Ahlsson</p>
+            </div>
+        </footer>
+        <!-- Footer End -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
